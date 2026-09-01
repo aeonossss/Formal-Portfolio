@@ -177,10 +177,6 @@ button.contact:hover {
   padding: 0 56px 32px 56px;
 }
 
-.org-title{
-  margin:32px;
-}
-
 .lumirra, .shore, .onefine, .igy6 {
   width: 128px;
   height: 72px;
@@ -232,7 +228,9 @@ button.contact:hover {
 }
 
 .org-title{
+  font-size: 32px;
   color: #48435C;
+  margin:32px;
 }
 
 .section-Title{

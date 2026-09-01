@@ -65,6 +65,18 @@ function App(){
 
               </div>
             </div>
+            
+
+            <div id='orgs'>
+              <div className='org-title' style={{position: 'relative', zIndex: 1}}>Organizations Served</div>
+              <div id='orgs-served'>
+                <a href='https://www.lumirracollective.com/' className='lumirra' target='_blank' rel='noopener noreferrer'></a>
+                <a href='https://www.shore360agency.com/' className='shore' target='_blank' rel='noopener noreferrer'></a>
+                <a href='https://www.onefinebaby.com.au/' className='onefine' target='_blank' rel='noopener noreferrer'></a>
+                <a href='https://www.igy6.com.au/' className='igy6' target='_blank' rel='noopener noreferrer'></a>
+              </div>
+            </div>
+
             <div id='logo-loop'>
                   <div style={{ position: 'relative', overflow: 'hidden'}}>
                     <LogoLoop
@@ -78,16 +90,6 @@ function App(){
                       useCustomRender={false}
                   />
                 </div>
-            </div>
-
-            <div id='orgs'>
-              <div className='org-title' style={{position: 'relative', zIndex: 1}}>Organizations Served</div>
-              <div id='orgs-served'>
-                <a href='https://www.lumirracollective.com/' className='lumirra' target='_blank' rel='noopener noreferrer'></a>
-                <a href='https://www.shore360agency.com/' className='shore' target='_blank' rel='noopener noreferrer'></a>
-                <a href='https://www.onefinebaby.com.au/' className='onefine' target='_blank' rel='noopener noreferrer'></a>
-                <a href='https://www.igy6.com.au/' className='igy6' target='_blank' rel='noopener noreferrer'></a>
-              </div>
             </div>
 
             <div id='work'>
