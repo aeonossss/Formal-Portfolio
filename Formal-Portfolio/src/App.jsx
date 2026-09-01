@@ -58,7 +58,11 @@ function App(){
                     <ContactButton />
                   </div>
                 </div>
-                <div className='me'></div>
+
+                <a href='https://www.linkedin.com/in/e-yalung/' className='me-link' target='_blank' rel='noopener noreferrer'>
+                  <div className='me'></div>
+                </a>
+
               </div>
             </div>
             <div id='logo-loop'>
@@ -75,6 +79,17 @@ function App(){
                   />
                 </div>
             </div>
+
+            <div id='orgs'>
+              <div className='org-title' style={{position: 'relative', zIndex: 1}}>Organizations Served</div>
+              <div id='orgs-served'>
+                <a href='https://www.lumirracollective.com/' className='lumirra' target='_blank' rel='noopener noreferrer'></a>
+                <a href='https://www.shore360agency.com/' className='shore' target='_blank' rel='noopener noreferrer'></a>
+                <a href='https://www.onefinebaby.com.au/' className='onefine' target='_blank' rel='noopener noreferrer'></a>
+                <a href='https://www.igy6.com.au/' className='igy6' target='_blank' rel='noopener noreferrer'></a>
+              </div>
+            </div>
+
             <div id='work'>
               <Waves
                 lineColor="#362b4e"
@@ -160,10 +175,78 @@ function App(){
                     </BorderGlow>
                     </div>
                     <div className='ui' style={{position: 'relative', zIndex: 1}}>
-                  UI/UX Design
+                      UI/UX Design
+                    </div>
+
+                    <div className='uiux'>
+                      <BorderGlow
+                        edgeSensitivity={2}
+                        glowColor="40 20 80"
+                        backgroundColor="#16141C"
+                        borderRadius={16}
+                        glowRadius={10}
+                        glowIntensity={.5}
+                        coneSpread={10}
+                        animated={true}
+                        colors={['#6aee84', '#EAF9C8', '#b3ff00']}
+                      >
+                      <div style={{ padding: '2em' }}>
+                        <div>
+                          <div style={{ gap: '0' }}>
+                            <h2>Technical Portfolio</h2>
+                          <a href='https://www.figma.com/design/8wDRxXaypsokDQLoBs5upN/Eya-Yalung-Technical-Portfolio?node-id=0-1&t=6PG7HzgzGXbEOXuL-1' className='links' target='_blank' rel='noopener noreferrer'>FIGMA LINK HERE</a>
+                          </div>
+                          <p>Developed using React and Vite, alongside core web technologies such as HTML, CSS, and JavaScript. It adopts a minimalistic design approach in contrast to the designer portfolio, emphasizing clarity and functionality. The portfolio highlights my work in frontend development and UI/UX design, demonstrating both technical implementation and user-centered design principles.</p>
+                        </div>
+                      </div>
+                      </BorderGlow>
+
+                      <BorderGlow
+                        edgeSensitivity={2}
+                        glowColor="40 20 80"
+                        backgroundColor="#16141C"
+                        borderRadius={16}
+                        glowRadius={10}
+                        glowIntensity={.5}
+                        coneSpread={10}
+                        animated={true}
+                        colors={['#6aee84', '#EAF9C8', '#b3ff00']}
+                      >
+                      <div style={{ padding: '2em' }}>
+                        <div>
+                          <div style={{ gap: '0' }}>
+                            <h2>To-Do Application (Web & Mobile)</h2>
+                          <a href='https://www.figma.com/design/tXwVVIUYPlW6YeDHeYxKoe/To-Do-Website?node-id=0-1&t=Sc0zR00Dc7fbLR1F-1' className='links' target='_blank' rel='noopener noreferrer'>FIGMA LINK HERE</a>
+                          </div>
+                          <p>UI/UX design for Lumirra Collective, with ownership of the website’s visual direction, user experience, and interface design. The project focused on translating the brand’s vintage photography and art print identity into a refined, immersive, and intuitive digital experience through cohesive layouts, user flows, and interactive components.</p>
+                        </div>
+                      </div>
+                      </BorderGlow>
+
+                      {/* <BorderGlow
+                          edgeSensitivity={2}
+                          glowColor="40 20 80"
+                          backgroundColor="#16141C"
+                          borderRadius={16}
+                          glowRadius={10}
+                          glowIntensity={.5}
+                          coneSpread={10}
+                          animated={true}
+                          colors={['#6aee84', '#EAF9C8', '#b3ff00']}
+                        >
+                        <span style={{ padding: '2em' }}>
+                          <h2>Custom Event Souvenir Perfume E-Commerce Website (Work in Progress)</h2>
+                          <a href='https://www.figma.com/design/vJPOuKYDusK5PpMb2dBJqt/Spray-Lab?t=NwZSMAK5J1YhagYT-1' className='links' target='_blank' rel='noopener noreferrer'>FIGMA LINK HERE</a>
+                          <p>Built a custom e-commerce website for personalized perfume souvenirs for weddings, birthdays, and special occasions. Implemented a user-friendly design with smooth navigation and an optimized browsing experience to help customers easily select and purchase products.</p>
+                        </span>
+                      </BorderGlow> */}
+                    </div>
+
+                  <div className='launched-title' style={{position: 'relative', zIndex: 1}}>
+                    Launched UI/UX Design
                   </div>
 
-                  <div className='uiux'>
+                  <div className='launched-uiux'>
                     <BorderGlow
                       edgeSensitivity={2}
                       glowColor="40 20 80"
@@ -177,33 +260,18 @@ function App(){
                     >
                     <div style={{ padding: '2em' }}>
                       <div>
-                        <div style={{ gap: '0' }}>
-                          <h2>Technical Portfolio</h2>
-                        <a href='https://www.figma.com/design/8wDRxXaypsokDQLoBs5upN/Eya-Yalung-Technical-Portfolio?node-id=0-1&t=6PG7HzgzGXbEOXuL-1' className='links' target='_blank' rel='noopener noreferrer'>FIGMA LINK HERE</a>
+                          <h2 className='ui-title'>Lumirra Collective</h2>
+                          <div className='role'>
+                            <h4>(Leading UI/UX Designer)</h4>
+                            <a href='https://lumirracollective.com/' className='links' target='_blank' rel='noopener noreferrer'>https://lumirracollective.com/</a>
                         </div>
-                        <p>Developed using React and Vite, alongside core web technologies such as HTML, CSS, and JavaScript. It adopts a minimalistic design approach in contrast to the designer portfolio, emphasizing clarity and functionality. The portfolio highlights my work in frontend development and UI/UX design, demonstrating both technical implementation and user-centered design principles.</p>
+                        <p>Led the UI/UX design for Lumirra Collective, overseeing the website’s visual direction, user experience, and interface design. The project focused on translating the brand’s vintage photography and art print identity into a refined, immersive, and intuitive digital experience through cohesive layouts, user flows, and interactive components.</p>
                       </div>
                     </div>
                     </BorderGlow>
 
-                    <BorderGlow
-                        edgeSensitivity={2}
-                        glowColor="40 20 80"
-                        backgroundColor="#16141C"
-                        borderRadius={16}
-                        glowRadius={10}
-                        glowIntensity={.5}
-                        coneSpread={10}
-                        animated={true}
-                        colors={['#6aee84', '#EAF9C8', '#b3ff00']}
-                      >
-                      <div style={{ padding: '2em' }}>
-                        <h2>Spray Lab Perfume Bar Website</h2>
-                        <p className='disabled-links'>WORK IN PROGRESS</p>
-                        <p>A custom-built to-do list application created for the Shore360 Design Department to improve task organization and workflow efficiency. The system features structured job number tracking and alarm notifications to help the team manage deadlines and priorities effectively. Designed with a minimalist approach, the interface emphasizes clarity, ease of use, and a seamless user experience that supports productivity without visual clutter.</p>
-                      </div>
-                    </BorderGlow>
                   </div>
+
                   </div>
             </div>
 

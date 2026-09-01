@@ -163,6 +163,50 @@ button.contact:hover {
   overflow: hidden;
 }
 
+#orgs{
+  margin: 0;
+  padding: 0;
+}
+
+#orgs-served{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  padding: 0 56px 32px 56px;
+}
+
+.org-title{
+  margin:32px;
+}
+
+.lumirra, .shore, .onefine, .igy6 {
+  width: 128px;
+  height: 72px;
+  flex-shrink: 1;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.lumirra{
+  background-image: url('./assets/imgs/lumirra.svg');
+  
+}
+
+.shore{
+  background-image: url('./assets/imgs/shore.svg');
+}
+
+.onefine{
+  background-image: url('./assets/imgs/onefinebaby.svg');
+}
+
+.igy6{
+  background-image: url('./assets/imgs/igy6.svg');
+}
+
 /* ── WORK SECTION ── */
 #work {
   display: block;
@@ -178,13 +222,17 @@ button.contact:hover {
   box-sizing: border-box;
 }
 
-.section-Title, .cert-title, .skills-title, .interests-title {
+.org-title, .section-Title, .cert-title, .skills-title, .interests-title {
   font-family: 'Moglan', sans-serif;
   font-size: 40px;
   font-weight: bold;
   text-align: center;
   padding: 0 24px;
   margin-bottom: 16px;
+}
+
+.org-title{
+  color: #48435C;
 }
 
 .section-Title{
@@ -199,15 +247,41 @@ button.contact:hover {
   background-color: #A3AAD7;
 }
 
-.section, .ui {
+.section, .ui, .launched-title {
   text-align: center;
   margin-bottom: 24px;
   font-weight: bold;
   padding: 0 24px;
 }
 
-.ui {
+.ui, .launched-title {
   margin-top: 56px;
+}
+
+.ui-title{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom:8px;
+  padding: 0;
+}
+
+.ui-title h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.role {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.role h4 {
+  margin: 0;
 }
 
 .work-cards {
@@ -220,7 +294,7 @@ button.contact:hover {
   box-sizing: border-box;
 }
 
-.frontend, .uiux {
+.frontend, .uiux, .launched-uiux {
   display: grid;
   grid-template-columns: 1fr;
   gap: 24px;
@@ -271,8 +345,6 @@ button.contact:hover {
 .designer-port:hover{
   color: #ffffff;
 }
-
-
 
 .footer-content {
   display: flex;
@@ -762,7 +834,8 @@ a{
 @media (max-width: 1400px) {
   .landing-content,
   .frontend,
-  .uiux {
+  .uiux,
+  .launched-uiux {
     padding-left: 128px;
     padding-right: 128px;
   }
@@ -772,7 +845,8 @@ a{
 @media (max-width: 1100px) {
   .landing-content,
   .frontend,
-  .uiux {
+  .uiux,
+  .launched-uiux {
     padding-left: 48px;
     padding-right: 48px;
   }
@@ -799,7 +873,8 @@ a{
   }
 
   .frontend,
-  .uiux {
+  .uiux,
+  .launched-uiux {
     grid-template-columns: 1fr;
     padding-left: 32px;
     padding-right: 32px;
@@ -828,7 +903,8 @@ a{
   }
 
   .frontend,
-  .uiux {
+  .uiux,
+  .launched-uiux {
     padding-left: 20px;
     padding-right: 20px;
     gap: 16px;

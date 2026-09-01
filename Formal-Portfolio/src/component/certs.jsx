@@ -22,7 +22,7 @@ const certifications = [
   {
     category: 'Experience',
     items: [
-      { label: 'UI/UX Designer Internship', href: 'https://www.linkedin.com/in/e-yalung/overlay/Position/2813259925/treasury/?profileId=ACoAAE6smSUBXTo4dfZDOKHcoeQaNDkgOlhYkn8' },
+      { label: 'UI/UX Designer Internship', href: 'https://www.linkedin.com/in/e-yalung/overlay/1775718255489/single-media-viewer/?profileId=ACoAAE6smSUBXTo4dfZDOKHcoeQaNDkgOlhYkn8' },
     ],
   },
 ];
